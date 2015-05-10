@@ -1,4 +1,4 @@
-# Thư viện xử lý bit (Bitwise trick) cho C
+# Thư viện xử lý bit cho C (Bitwise trick)
 
 
 
