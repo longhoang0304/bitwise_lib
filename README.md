@@ -3,7 +3,7 @@
 
 
 #How to
-- Tạo project mới và #include<bit.h>
+- Tạo project mới và #include <bit.h>
 - Add file bit.c vào project.
 
 Note:
