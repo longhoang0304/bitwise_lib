@@ -24,11 +24,11 @@
 	int togglebit(int, int);
 	/*tắt bit có giá trị 1 ở phía bên phải cung`, 100100 -> 100000*/
 	int offRMostOne(int);
-	/* tim` vị trí bit 1 ở phảii cùng 101100 -> 3*/
+	/* tim` vị trí bit 1 ở phảii cùng 101100 -> 0000100*/
 	int FindRMostOne(int);
 	/* chuyển tất cả các số 0 sau bit 1 phải cùng thành bit 1, 100100 -> 100111*/
 	int TRMostOneb(int);
-	/* tìm vị trí bit 0 ở phải cùng dãy bit, 10101011 -> 3*/
+	/* tìm vị trí bit 0 ở phải cùng dãy bit, 10101011 -> 00000100*/
 	int FindRMostZero(int);
 	/* bật bit 0 ở vị trí phải cùng thành 1, 10100011 -> 10100111*/
 	int onRMostZero(int);
