@@ -57,11 +57,8 @@ int offRMostOne(int x) {
 }
 
 int FindRMostOne(int x) {
-	x = x & (neg(x));
-	int i;
-	for(i=0;i<32;i++) {
-		if(getbit(x,i)) return i;
-	} 
+	return ( x & (neg(x)));
+	
 }
 
 int TRMostOneb(int x) {
@@ -69,11 +66,7 @@ int TRMostOneb(int x) {
 }
 
 int FindRMostZero(int x) {
-	x = ~x & (x+1);
-	int i;
-	for(i=0;i<32;i++) {
-		if(getbit(x,i)) return i;
-	} 
+	return (~x & (x+1));
 }
 
 int onRMostZero(int x) {
